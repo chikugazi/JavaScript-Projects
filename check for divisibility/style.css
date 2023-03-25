@@ -1,0 +1,35 @@
+.section{
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.right {
+    right: 0;
+    background-color: rgb(27, 173, 221);
+    font-size: larger;
+}
+
+.left {
+    left: 0;
+    background-color: #3883e6;   
+}
+
+.display{
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+}
+.result{
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+}

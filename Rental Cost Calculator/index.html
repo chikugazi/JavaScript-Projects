@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Rent Calculator</h3>
+        <label for="">Select type of Car</label>
+        <select name="car" id="type">
+            <option id="economy" value="Economy">Economy</option>
+            <option id="midsize" value="MidSize">MidSize</option>
+            <option id="luxury" value="Luxury">Luxury</option>
+        </select>
+        <label for="">Enter number of days you want</label>
+        <input id="num" type="number">
+        <button id="btn">Calculate</button>
+        <h3>Total Rent</h3>
+        <div class="display" id="result"></div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

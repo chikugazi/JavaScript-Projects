@@ -1,0 +1,12 @@
+The problem is to calculate the total bill for a table at a restaurant based on the cost of each dish and the number of people sharing it. The function should take in two parameters: the cost of each dish and the number of people sharing it, and return an object containing the total bill and the bill to be paid by each person in the group.
+
+To solve this problem, we need to first calculate the total cost of the dishes. This can be done by multiplying the cost of each dish by the number of people sharing it and adding up the costs of all the dishes. Once we have the total cost, we can divide it by the number of people to get the bill per person.
+
+Here is the logic you can use for the function:
+
+Define a function that takes two parameters: cost_per_dish and num_people.
+Multiply cost_per_dish by num_people to get the total cost of the dish.
+Repeat step 2 for all dishes and add up the costs to get the total bill.
+Divide the total bill by the number of people to get the bill per person.
+Create an object containing the total bill and the bill per person.
+Return the object.
